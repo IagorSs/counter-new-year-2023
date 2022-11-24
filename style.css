@@ -35,7 +35,7 @@ body > * + * {
   background-color: #1aad49;
 }
 
-.two-column * {
+.inline-items * {
   display: inline-block;
   vertical-align: top;
 }
