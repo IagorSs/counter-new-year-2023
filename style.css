@@ -1,6 +1,14 @@
 * {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
+  transition: all 0.2s;
+}
+
+span,
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 html {
@@ -21,10 +29,29 @@ body > * + * {
   margin-top: 16px;
 }
 
+h1 {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .rounded {
   border-radius: 8px;
   padding: 16px;
   color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .background-orange {
@@ -94,4 +121,8 @@ body > * + * {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #c76a4d;
+}
+
+.wpp-link:hover {
+  background-color: #cf481f;
 }
