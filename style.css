@@ -43,3 +43,55 @@ body > * + * {
 .bold {
   font-weight: bold;
 }
+
+#counter {
+  position: sticky;
+  top: 10px;
+}
+
+#slider {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  padding: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+#slider li {
+  list-style: none;
+  position: relative;
+}
+
+#slider li + li {
+  margin-left: 6px;
+}
+
+#slider li img {
+  height: calc(100% - 8px);
+  border-radius: 8px;
+  border: 1px solid black;
+  border-bottom: 4px solid black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e7876a;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c76a4d;
+}

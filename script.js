@@ -66,3 +66,18 @@ const fifthLote = document.getElementById("fifth");
 const dateFifthLote = new Date(2022, 11, 31);
 if (now > dateFifthLote) fifthLote.style.textDecoration = "line-through";
 else if (now > dateForthLote) fifthLote.style.fontWeight = "bold";
+
+const qtdeImgs = 27;
+
+const slider = document.getElementById('slider');
+
+for (let i = 0; i < qtdeImgs; i++) {
+  const li = document.createElement('li');
+
+  const img = document.createElement('img');
+  img.src = `./imgs/slider/${i+1}.jpg`;
+  li.appendChild(img);
+
+  slider.appendChild(li);
+}
+
