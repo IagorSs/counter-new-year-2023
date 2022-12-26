@@ -58,11 +58,6 @@ const dateForthLote = new Date(2022, 11, 29);
 if (now > dateForthLote) forthLote.style.textDecoration = "line-through";
 else if (now > dateThirdLote) forthLote.style.fontWeight = "bold";
 
-const fifthLote = document.getElementById("fifth");
-const dateFifthLote = new Date(2022, 11, 31);
-if (now > dateFifthLote) fifthLote.style.textDecoration = "line-through";
-else if (now > dateForthLote) fifthLote.style.fontWeight = "bold";
-
 const qtdeImgs = 27;
 
 const slider = document.getElementById('slider');
