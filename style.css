@@ -74,6 +74,7 @@ h3 {
 #counter {
   position: sticky;
   top: 10px;
+  z-index: 10;
 }
 
 #slider {
