@@ -34,11 +34,7 @@ const func = () => {
   
   now.setSeconds(now.getSeconds() + 1);
 
-  if(isAfterTravel) {
-    counterContainer.style.backgroundColor = "green";
-    image.src = "tina.jpeg";
-    image.alt = "Tina de cabeça pra baixo";
-  } else setTimeout(func,1000);
+  setTimeout(func,1000);
 };
 
 func();
